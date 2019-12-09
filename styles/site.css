@@ -1,18 +1,130 @@
-/*--------------about*/
+/*----------------------------------index*/
 .header{
   display: flex;
   margin-top: 40px;
   align-items: center;
   position: relative;
   margin-left: 20%;
-  margin-bottom: 0px;
 }
 .header img{
-  display: block;
+  display:block;
+  margin-bottom: 0px;
   margin-right: 30%;
   width:200px;
 
 }
+h2{
+  display: inline;
+  font-family: 'Muli',sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #363636;
+  position: relative;
+  margin-left: 21%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 4px;
+  /* background-image: linear-gradient(
+      transparent 65%,
+      #67979E 110%
+      );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s forwards; */
+}
+/* @keyframes animatedBackground {
+    to {
+        background-size: 100% 100%;
+    }
+} */
+
+/*Intro*/
+.intro{
+  display: flex;
+  flex-direction:row;
+  margin-top: 40px;
+  /* margin-left: 50px;
+  margin-right: 20%; */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.pic img{
+  width:250px;
+  float: right;
+  margin-left: 20%;
+  margin-right: 30%;
+  position: relative;
+
+}
+.intro p{
+  display:block;
+  font-family:'Muli', sans-serif;
+  font-weight:400;
+  color:#363636;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  margin-left: 20%;
+  margin-right: 100px;
+
+
+  }
+.intro a{
+  color: #67979E;
+  position: relative;
+  text-decoration: none;
+}
+
+.intro a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #67979E;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.intro a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+.intro strong{
+    font-family:'Muli', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:400;
+    color: #67979E;
+
+  }
+
+/* h3 {
+  font-family:'Muli', sans-serif;
+  color:#363636;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 3;
+  letter-spacing: 2px;
+  display: inline;
+  background-image: linear-gradient(
+      transparent 65%,
+      #67979E 120%
+      );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+} */
+
+
+
 /*Navigation*/
 nav{
   text-align: right;
@@ -62,93 +174,8 @@ nav a:hover::after {
   font-weight: 700;
 }
 
-/*Intro*/
-.intro{
-  margin-top: 30px;
-  margin-left: 50px;
-}
-.pic img{
-  width:300px;
-  float: left;
-  margin-left: 16%;
-  margin-right: 70px;
-  position: relative;
-
-}
-.intro p{
-  display:block;
-  font-family:'Muli', sans-serif;
-  font-weight:400;
-  color:#363636;
-  font-size: 16px;
-  letter-spacing: 2px;
-  line-height: 30px;
-  margin-bottom: 15px;
-  margin-right: 20%;
-
-}
-.intro a{
-  color: #67979E;
-  position: relative;
-  text-decoration: none;
-
-}
-
-.intro a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #67979E;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-.intro a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
-
-.intro strong{
-    font-family:'Muli', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight:400;
-    color: #67979E;
-}
-
-/* h3 {
-  font-family:'Muli', sans-serif;
-  color:#363636;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 3;
-  letter-spacing: 2px;
-  display: inline;
-  background-image: linear-gradient(
-      transparent 65%,
-      #67979E 120%
-      );
-  background-repeat: no-repeat;
-  background-size: 0% 100%;
-  animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
-} */
-
-
-/*footer*/
-.footer{
-  padding-top: 100px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-
 .fa {
+
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -172,6 +199,13 @@ nav a:hover::after {
   color: #363636;
 }
 
+.footer{
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/*----------------------------------work*/
 /* word_animation*/
 .word_animation {
   font-family: 'Muli', sans-serif;
@@ -227,7 +261,6 @@ nav a:hover::after {
 .yellow {
   color: #f8d568;
 }
-
 
 h2{
   display: inline;
