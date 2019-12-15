@@ -198,6 +198,9 @@ nav a:hover::after {
 .fa-instagram {
   color: #363636;
 }
+.fa-medium {
+  color: #363636;
+}
 
 .footer{
   padding-top: 80px;
@@ -316,6 +319,7 @@ background:lightgray;
   font-size: 14px;
   font-weight: 400;
   color: #363636;
+  line-height: 20px;
 }
 
 .row1{
@@ -341,6 +345,7 @@ background:lightgray;
 .image {
     width: 370px;
     float: left;
+    
     }
 .projects a{
   margin-right: 40px;
