@@ -291,16 +291,31 @@ background:lightgray;
 .projects{
   font-family:'Muli', sans-serif;
   color: #363636;
-  font-size: 15px;
   justify-content: center;
   position: relative;
   top: 80px;
   padding-left: 20%;
   padding-right: 20%;
+  letter-spacing: 1px;
 }
 .projects h3{
-  letter-spacing: 1px;
+  font-size: 17px;
   font-weight:bold;
+  margin-bottom: 6px;
+
+}
+.projects h4{
+  font-size: 12px;
+  font-weight:300;
+  color:gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.projects p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #363636;
 }
 
 .row1{
@@ -324,10 +339,10 @@ background:lightgray;
   padding-bottom: 60px;
 }
 .image {
-    width: 360px;
+    width: 370px;
     float: left;
     }
 .projects a{
-  margin-right: 10%;
+  margin-right: 40px;
 
 }
