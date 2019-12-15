@@ -352,7 +352,7 @@ background:lightgray;
 }
 
 .image {
-    width: 370px;
+    width: 400px;
     float: left;
     transition: .5s ease;
     backface-visibility: hidden;
