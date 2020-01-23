@@ -32,6 +32,12 @@
   margin-right: 10%;
 }
 
+.discussion{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+}
+
 .spotify{
   display: flex;
   flex-direction: row;
