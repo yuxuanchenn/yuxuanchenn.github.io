@@ -1,10 +1,29 @@
+#introduction{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  font-family:'Muli', sans-serif;
+  color: #363636;
+  font-size: 20px;
 
+  letter-spacing: 1px;
+  text-align: center;
+
+
+}
+#introduction p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 30px;
+}
 .projects{
   font-family:'Muli', sans-serif;
   color: #363636;
   justify-content: center;
   position: relative;
-  top: 60px;
+  margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   letter-spacing: 1px;
