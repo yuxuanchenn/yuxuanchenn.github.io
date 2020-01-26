@@ -10,6 +10,7 @@
     <script src="scripts/site.js" type="text/javascript"></script>
   </head>
   <body>
+    <a name="top"></a>
     <div class="header">
       <img src="images/name.png" alt="YUXUAN CHEN"/>
       <nav>
@@ -20,10 +21,11 @@
         </ul>
       </nav>
     </div>
+
     <h2 id="name">YC · 陈语萱 &nbsp;&nbsp;</h2>
     <div class="case_study">
-      <img id="banner" src="images/alist_banner.png" alt="banner"/>
-      <!-- <div class="horizontal_about">
+      <img id="banner" src="images/case_study/alist_banner.png" alt="banner"/>
+      <div class="horizontal_about">
         <div class="duration">
           <h4>Duration:</h4>
           <p>2 Weeks</p>
@@ -45,20 +47,20 @@
       </div>
       <div class="contents">
         <h4>Background</h4>
-        <p>Today, there are hundreds of social media across the internet. Celebrities around the world share their daily moments or latest works with the public via all kinds of social media apps.
-        Like many people, we follow celebrities we like on platforms, such as Instagram, Twitter, Weibo, etc.
+        <p>Today, many people connect with each other through internet. Celebrities around the world share their daily moments or latest works with the public via all kinds of social media apps.
+        Like the general public, we follow celebrities we like on platforms, such as Instagram, Twitter, Weibo, etc.
         </p>
 
         <h4>The Problem</h4>
-        <p>However, we discovered that these social media usually include contents like friend activity, advertisements, etc. that could potentially prevent users from accessing real-time updates of the celebrities they like.
-          Also, the large number of social media forces people to switch between apps which makes it difficult to keep track of all the activities.
+        <p>However, we discovered that these social media usually include contents like friend activity, advertisements, etc. that could potentially prevent users from accessing real-time updates of the celebrities.
+          Also, with the large amount of social media accounts a celebrity owns, it is difficult to keep track of all the activities of that one individual.
         </p>
         <div id="problem">
           <p>People want to have access to the newest updates of the celebrities they like. However, this is hard because:</p>
           <p>The apps usually contain irrelevant content.</p>
           <p>Switching between apps is annoying.</p>
         </div>
-        <p>To solve this problem, my team decided to build an app during Cornell AppDev Hack Challenge.</p>
+        <p>Therefore, my team decided to build an app that solves this problem during Cornell AppDev Hack Challenge.</p>
 
         <h4>Goals</h4>
         <div class="goals">
@@ -71,13 +73,64 @@
 
 
 
-        <h4>Ideation</h4>
+
+        <h4>Figuring Out What and How to Implement</h4>
+        <h5>Content Requirements</h5>
+        <p>Based on the goals, I brainstormed the content requirements for the app and listed out several important elements to include in my design.</p>
+        <img id="content_requirements" src="images/case_study/content_requirements.png" alt="content_requirements">
+        <p class="image_text">Content Requirements</p>
+
+        <h5>Initial Approach</h5>
         <p></p>
+        <img id="sketch" src="images/case_study/sketch.jpg" alt="sketch">
+        <p class="image_text">Initial Sketch</p>
+        <p>In the initial approach for designing the page for individual celebrity, I was considering to display an image of the celebrity at the bottom.
+          Yet, I realized that it did not solve the People Problem we proposed because it is meaningless and takes up too much space.</p>
 
-      </div> -->
+        <h5>The Main Feed</h5>
+        <img id="main_feed" src="images/case_study/main_feed.png" alt="iteration on main feed">
+        <p class="image_text">Visual Explorations for the Main Feed</p>
+        <p>Option A displayed the list of celebrities vertically. The notification icon for new updates is straightforward. Option B displayed the list in both vertical and horizontal directions and has one notification icon. However, this option failed to provide enough breathing space due to the width constraint. Also, it could be very troublesome if the celebrity’s name is long. Similar to Option A, C displayed the list vertically and had notification icons that indicate which specific social media were updated. This feature enabled the users to see what was updated right away without directing to the celebrity’s page. So, Option C aligned the most with the People Problem. I decided to pursue C.</p>
 
+        <h5>Follow / Unfollow Celebrities</h5>
+        <img id="add" src="images/case_study/add.png" alt="add">
+        <p class="image_text">More Elements</p>
+        <p>These are the important elements I incorporated for following celebrities. The search bar allows the users to quickly find the celebrities that they wish to follow. Also, celebrities are categorized based on regions, so that the users can view a list of celebrities from the region they selected. </p>
+
+        <img id="delete" src="images/case_study/delete.png" alt="delete">
+        <p class="image_text">Iterations for Unfollowing Celebrities</p>
+        <p>I created two different iterations for unfollowing a celebrity. Initially, I proposed Option A, in which the users need to click on the “More” button. After performing several user testings, I learned that the hit area was too small, so the users often direct to the detail view of the celebrity by accident. I pursued Option B because it provides a more efficient way for users to unfollow celebrities. </p>
+
+        <h5>Detail View</h5>
+        <img id="detail" src="images/case_study/detail.png" alt="celebrity's detail page">
+        <p class="image_text">Celebrity's Detail View</p>
+
+        <h4>Visual Design</h4>
+        <p>Here is the UI Kit that I generated. #6357FF and #FFC509 were used as the brand color because both of them convey a sense of fun and enthusiasm.</p>
+        <img id="uikit" src="images/case_study/uikit.png" alt="UI Kit">
+        <p class="image_text">UI Kit</p>
+
+        <h4>Final Interaction</h4>
+        <p>I built a prototype that shows the full flow of the app including all the features I incorporated in the design.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BsC37SLuF-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="image_text">ALIST Prototype</p>
+
+        <h4>Takeaways and Looking Forward</h4>
+        <p>ALIST is the very first project that I worked in a team as a product designer, and I redesigned the app after the 2-weeks Cornell AppDev Hack Challenge. Due to the time constraint and our inexperience in app development, our team was not able to implement all the features. Yet, there are still
+        many takeaways after reflecting on the project.</p>
+
+        <p>I became better at describing my design decisions. As the only designer in our team, I need to provide an explanation for how my design solves the problem that we proposed. Therefore, communication is the key to ensure everything goes smoothly.  I also learned the importance of conducting user testings. Sometimes, it's hard to see the flaws in my own design, so user testings are incredibly helpful during the process. In the future, I would like to conduct more user testings to further refine my design and explore other purposeful interactions.</p>
+
+      </div>
+      
+      <div class="top">
+        <a href="#top">Back to Top</a>
+
+      </div>
     </div>
-    <h4>COMING SOON...</h4>
+
+
+    <!-- <h4>COMING SOON...</h4> -->
 
 
 

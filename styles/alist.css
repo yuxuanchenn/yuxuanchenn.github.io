@@ -18,12 +18,42 @@
 h4{
   margin-bottom: 8px;
   color: black;
+  font-size: 20px;
+}
+h5{
+  color: #363333;
+  font-size: 16px;
+  margin-bottom: 8px;
+
 }
 .contents p{
   margin-bottom: 30px;
 }
 #banner{
   width: 100%;
+}
+#uikit{
+  width:100%;
+}
+#sketch{
+  width: 100%;
+}
+#content_requirements{
+  width:100%;
+}
+#main_feed{
+  width: 100%;
+}
+#detail{
+  width:100%;
+}
+#delete{
+  width:100%;
+  margin-top: 10px;
+}
+#add{
+  width: 100%;
+  margin-top: 10px;
 }
 .horizontal_about{
   display: flex;
@@ -66,8 +96,9 @@ h4{
 }
 
 .contents{
-  padding-right:90px;
-  padding-left:90px;
+  padding-right:5%;
+  padding-left:5%;
+  margin-top: 20px;
 }
 
 .contents h3{
@@ -81,10 +112,33 @@ h4{
 #problem{
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 20px;
+  font-size: 24px;
   color: gray;
   margin-bottom: 30px;
 }
 #problem p{
   margin-bottom: 10px;
+}
+
+.color{
+  font-weight: normal;
+}
+
+.image_text{
+  text-align: center;
+  font-size: 12px;
+  color: #626161;
+}
+
+iframe{
+  width: 100%;
+}
+
+.top{
+
+  text-align: center;
+}
+.top a{
+  text-decoration: none;
+  color: gray;
 }
