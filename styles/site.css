@@ -137,6 +137,10 @@ nav a:hover::after {
     padding-left: 25px;
     padding-right: 25px;
   }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
   #name{
     display: none;
   }
