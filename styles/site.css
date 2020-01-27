@@ -144,3 +144,6 @@ nav a:hover::after {
   #name{
     display: none;
   }
+  nav ul{
+    padding-left: 0px;
+  }
