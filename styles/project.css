@@ -48,7 +48,6 @@
   color: #363636;
   line-height: 25px;
   letter-spacing: 1.3px;
-  margin-right: 10%;
 }
 
 .discussion{
@@ -205,9 +204,6 @@
 	transition: .2s ease-in-out;
 
 }
-.drawing img:hover{
-
-}
 
 .otherwork .text {
   font-family: 'Muli',sans-serif;
@@ -216,4 +212,24 @@
   font-weight: normal;
   letter-spacing: 4px;
   padding: 16px 32px;
+}
+@media (max-width: 900px) {
+  .discussion{
+    flex-direction: column;
+  }
+  .spotify{
+    flex-direction: column;
+  }
+  .a-list{
+    flex-direction: column;
+  }
+  .venmo{
+    flex-direction: column;
+  }
+  .foodie{
+    flex-direction: column;
+  }
+  .image{
+    margin-right: 0px;
+  }
 }

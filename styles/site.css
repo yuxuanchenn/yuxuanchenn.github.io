@@ -132,3 +132,11 @@ nav a:hover::after {
   letter-spacing: 4px;
 
 }
+@media (max-width: 900px) {
+  body{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #name{
+    display: none;
+  }
