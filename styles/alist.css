@@ -142,3 +142,9 @@ iframe{
   text-decoration: none;
   color: gray;
 }
+
+@media (max-width: 900px) {
+  .team p{
+    margin-left: 0px;
+  }
+}
