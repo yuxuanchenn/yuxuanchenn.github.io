@@ -118,3 +118,15 @@
   .yellow {
     color: #f8d568;
   }
+
+  @media (max-width: 900px) {
+    .intro{
+      flex-direction: column-reverse;
+    }
+    .intro p{
+      margin-right: 0px;
+    }
+    .pic img{
+      float: none;
+    }
+  }
