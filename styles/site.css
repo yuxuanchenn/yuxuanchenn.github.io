@@ -146,8 +146,7 @@ button {
   letter-spacing: 1.3px;
   font-family: 'Muli',sans-serif;
   background: none;
-  border-right: 1.2px solid #363636;
-  border-left: 1.2px solid #363636;
+  border: 1.2px solid #363636;
   color: #363636;
   display: block;
   padding: 8px 20px;
