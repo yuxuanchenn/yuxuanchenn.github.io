@@ -16,7 +16,7 @@
 }
 .intro p{
   display:block;
-  font-family:'Muli', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight:400;
   color:#363636;
   font-size: 16px;
@@ -55,7 +55,7 @@
 
 
 .intro strong{
-    font-family:'Muli', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight:400;
@@ -65,7 +65,7 @@
 
 /* word_animation*/
   .word_animation {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 36px;
     color: white;
