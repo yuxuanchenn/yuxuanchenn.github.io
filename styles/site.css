@@ -198,6 +198,9 @@ button:hover {
   #name{
     display: none;
   }
+  #chinese{
+    display: none;
+  }
   nav ul{
     padding-left: 0px;
   }
