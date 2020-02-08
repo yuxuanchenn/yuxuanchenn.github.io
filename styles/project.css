@@ -1,15 +1,12 @@
 #introduction{
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 50px;
+  padding-top: 30px;
   font-family:'Raleway', sans-serif;
-  color: #363636;
-  font-size: 20px;
-
+  color: #333333;
+  font-size: 18px;
   letter-spacing: 1px;
   text-align: center;
-
-
 }
 #introduction p{
   margin-top: 0px;
@@ -20,7 +17,7 @@
 }
 .projects{
   font-family:'Raleway', sans-serif;
-  color: #363636;
+  color: #333333;
   justify-content: center;
   position: relative;
   margin-top: 30px;
@@ -29,7 +26,7 @@
   letter-spacing: 1px;
 }
 .projects h3{
-  font-size: 17px;
+  font-size: 16px;
   font-weight:bold;
   margin-bottom: 6px;
   margin-top: 0px;
@@ -43,11 +40,11 @@
 
 }
 .projects p{
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  color: #363636;
+  color: #333333;
   line-height: 25px;
-  letter-spacing: 1.3px;
+  letter-spacing: .08em;
 }
 
 .discussion{
@@ -59,25 +56,25 @@
 .spotify{
   display: flex;
   flex-direction: row;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .venmo{
   display: flex;
   flex-direction: row;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .a-list{
   display: flex;
   flex-direction: row;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .foodie{
   display: flex;
   flex-direction: row;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .container:hover .image {
@@ -152,7 +149,7 @@
   margin-right: auto;
 
   font-family: 'Raleway',sans-serif;
-  color:#363636;
+  color:#333333;
   letter-spacing: 0.5px;
   font-size: 16px;
   font-weight:300;
