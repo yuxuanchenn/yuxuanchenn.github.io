@@ -43,8 +43,8 @@ nav a::after {
   top: 100%;
   left: 0;
   width: 100%;
-  height: 3px;
-  background: #67979E;
+  height: 2px;
+  background: #7FA6B8;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.5s;

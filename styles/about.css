@@ -28,7 +28,7 @@
 
   }
 .intro a{
-  color: #67979E;
+  color: #7FA6B8;
   position: relative;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #67979E;
+  background-color: #7FA6B8;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
