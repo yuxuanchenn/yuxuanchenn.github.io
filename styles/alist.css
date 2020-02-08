@@ -147,4 +147,12 @@ iframe{
   .team p{
     margin-left: 0px;
   }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .case_study{
+    margin-top: 20px;
+  }
 }
