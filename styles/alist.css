@@ -155,4 +155,11 @@ iframe{
   .case_study{
     margin-top: 20px;
   }
+  .horizontal_about{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .duration{
+    margin-left: 0px;
+  }
 }
