@@ -1,20 +1,3 @@
-#introduction{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
-  font-family:'Raleway', sans-serif;
-  color: #333333;
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-align: center;
-}
-#introduction p{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-weight: 500;
-  border-bottom: 1px solid #d4d4d4;
-  padding-bottom: 30px;
-}
 .projects{
   font-family:'Raleway', sans-serif;
   color: #333333;
@@ -45,6 +28,16 @@
   color: #333333;
   line-height: 25px;
   letter-spacing: .08em;
+}
+
+.hello p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 16px;
+  text-align: center;
+}
+.hello{
+  margin-bottom: 40px;
 }
 
 .discussion{

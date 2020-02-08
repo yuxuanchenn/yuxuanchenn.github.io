@@ -2,7 +2,7 @@
 .intro{
   display: flex;
   flex-direction:row;
-  /* margin-top: 40px; */
+  padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -10,9 +10,8 @@
   width:250px;
   float: right;
   margin-left: 20%;
-  margin-top: 50px;
+  margin-top: 80px;
   position: relative;
-
 }
 .intro p{
   display:block;
@@ -21,12 +20,15 @@
   color:#333333;
   font-size: 14px;
   letter-spacing: .08em;
-  line-height: 1.8em;
-  line-height: 30px;
-  margin-bottom: 15px;
+  line-height: 25px;
   margin-right: 100px;
-
+  margin-bottom: 10px;
+  margin-top: 10px;
   }
+.am p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 .intro a{
   color: #7FA6B8;
   position: relative;
@@ -61,6 +63,45 @@
   font-weight:700;
   color: #333333;
 
+}
+#introduction{
+  margin-bottom: 10px;
+}
+#introduction p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display:block;
+  font-family:'Raleway', sans-serif;
+  font-weight:400;
+  color:#333333;
+  font-size: 14px;
+  letter-spacing: .08em;
+  line-height: 22px;
+}
+
+.dash{
+  font-family: "Raleway";
+    font-size: 14px;
+    line-height: .9em;
+    text-transform: none;
+    letter-spacing: .2em;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    color:#333333;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dash p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+#yuxuanchen{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  letter-spacing: .05em;
+  font-weight: 700;
 }
 
 /* word_animation*/
@@ -136,5 +177,6 @@
       margin-right: auto;
       margin-top: 0px;
       width: 50%;
+      margin-bottom: 20px;
     }
   }

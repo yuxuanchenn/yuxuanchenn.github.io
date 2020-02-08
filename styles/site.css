@@ -11,7 +11,7 @@ body{
 .header img{
   display:inline-block;
   float:left;
-  width:180px;
+  width:30px;
   margin-top: 25px;
 }
 
@@ -103,7 +103,7 @@ nav a:hover::after {
   position: relative;
   margin-bottom: 0px;
   letter-spacing: 3.5px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   top:-10px;
 }
 
