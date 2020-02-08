@@ -1,5 +1,5 @@
-.projects{
-  font-family:'Raleway', sans-serif;
+.projects {
+  font-family: 'Raleway', sans-serif;
   color: #333333;
   justify-content: center;
   position: relative;
@@ -8,21 +8,23 @@
   padding-right: 20px;
   letter-spacing: 1px;
 }
-.projects h3{
+
+.projects h3 {
   font-size: 16px;
-  font-weight:bold;
+  font-weight: bold;
   margin-bottom: 6px;
   margin-top: 0px;
 }
-.projects h4{
+
+.projects h4 {
   font-size: 13px;
-  font-weight:300;
-  color:gray;
+  font-weight: 300;
+  color: gray;
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
-.projects p{
+
+.projects p {
   font-size: 14px;
   font-weight: 400;
   color: #333333;
@@ -30,41 +32,42 @@
   letter-spacing: .08em;
 }
 
-.hello p{
+.hello p {
   margin-bottom: 0px;
   margin-top: 0px;
   font-size: 16px;
   text-align: center;
 }
-.hello{
+
+.hello {
   margin-bottom: 40px;
 }
 
-.discussion{
+.discussion {
   display: flex;
   flex-direction: row;
   padding-bottom: 60px;
 }
 
-.spotify{
+.spotify {
   display: flex;
   flex-direction: row;
   padding-bottom: 50px;
 }
 
-.venmo{
+.venmo {
   display: flex;
   flex-direction: row;
   padding-bottom: 50px;
 }
 
-.a-list{
+.a-list {
   display: flex;
   flex-direction: row;
   padding-bottom: 50px;
 }
 
-.foodie{
+.foodie {
   display: flex;
   flex-direction: row;
   padding-bottom: 50px;
@@ -75,14 +78,14 @@
 }
 
 .image {
-    width: 400px;
-    float: left;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    margin-right: 60px;
-    }
+  width: 400px;
+  float: left;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-right: 60px;
+}
 
-.overlay{
+.overlay {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -93,59 +96,62 @@
   text-align: center;
 }
 
-
-
-.photography{
+.photography {
   position: relative;
-  top:80px;
+  top: 80px;
+}
 
-}
-.playground{
+.playground {
   display: flex;
   flex-direction: column;
 }
-.end{
+
+.end {
   display: flex;
   flex-direction: column;
 }
-.city{
+
+.city {
   display: flex;
   flex-direction: column;
 }
-.location_unknown{
+
+.location_unknown {
   display: flex;
   flex-direction: column;
 }
-.waves{
+
+.waves {
   display: flex;
   flex-direction: column;
 }
-.photography img{
-  width:600px;
+
+.photography img {
+  width: 600px;
   display: block;
   margin-right: auto;
   margin-left: auto;
   /* padding-bottom: 30px; */
   -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .1s ease-in-out;
-	transition: .1s ease-in-out;
+  filter: grayscale(100%);
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
 }
 
 .photography img:hover {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
-.photography h3{
+
+.photography h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
-  font-family: 'Raleway',sans-serif;
-  color:#333333;
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
   letter-spacing: 0.5px;
   font-size: 16px;
-  font-weight:300;
+  font-weight: 300;
   margin-bottom: 80px;
   margin-top: 10px;
 }
@@ -169,7 +175,7 @@
   text-align: center;
 }
 
-.drawing{
+.drawing {
   margin-top: 150px;
 }
 
@@ -182,48 +188,55 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.drawing img{
-  width:600px;
+
+.drawing img {
+  width: 600px;
   display: block;
   margin-right: auto;
   margin-left: auto;
   /* padding-bottom: 30px; */
   -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
-
+  filter: grayscale(100%);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .otherwork .text {
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 25px;
   font-weight: normal;
   letter-spacing: 4px;
   padding: 16px 32px;
 }
+
 @media (max-width: 900px) {
-  .projects h3{
+  .projects h3 {
     margin-top: 18px;
   }
-  .discussion{
+
+  .discussion {
     flex-direction: column;
   }
-  .spotify{
+
+  .spotify {
     flex-direction: column;
   }
-  .a-list{
+
+  .a-list {
     flex-direction: column;
   }
-  .venmo{
+
+  .venmo {
     flex-direction: column;
   }
-  .foodie{
+
+  .foodie {
     flex-direction: column;
   }
-  .image{
-    width:100%;
+
+  .image {
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;

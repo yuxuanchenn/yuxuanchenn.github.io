@@ -1,35 +1,39 @@
 /*Intro*/
-.intro{
+.intro {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
-.pic img{
-  width:250px;
+
+.pic img {
+  width: 250px;
   float: right;
   margin-left: 20%;
   margin-top: 80px;
   position: relative;
 }
-.intro p{
-  display:block;
-  font-family:'Raleway', sans-serif;
-  font-weight:400;
-  color:#333333;
+
+.intro p {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #333333;
   font-size: 14px;
   letter-spacing: .08em;
   line-height: 25px;
   margin-right: 100px;
   margin-bottom: 10px;
   margin-top: 10px;
-  }
-.am p{
+}
+
+.am p {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-.intro a{
+
+.intro a {
   color: #7FA6B8;
   position: relative;
   text-decoration: none;
@@ -49,55 +53,57 @@
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
+
 .intro a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-
-.intro strong{
-  font-family:'Raleway', sans-serif;
+.intro strong {
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-style: normal;
-  font-weight:700;
+  font-weight: 700;
   color: #333333;
-
 }
-#introduction{
+
+#introduction {
   margin-bottom: 10px;
 }
-#introduction p{
+
+#introduction p {
   margin-bottom: 0px;
   margin-top: 0px;
-  display:block;
-  font-family:'Raleway', sans-serif;
-  font-weight:400;
-  color:#333333;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #333333;
   font-size: 14px;
   letter-spacing: .08em;
   line-height: 22px;
 }
 
-.dash{
+.dash {
   font-family: "Raleway";
-    font-size: 14px;
-    line-height: .9em;
-    text-transform: none;
-    letter-spacing: .2em;
-    text-decoration: none;
-    font-weight: 700;
-    font-style: normal;
-    color:#333333;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.dash p{
+  font-size: 14px;
+  line-height: .9em;
+  text-transform: none;
+  letter-spacing: .2em;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
-#yuxuanchen{
+
+.dash p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#yuxuanchen {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   letter-spacing: .05em;
@@ -105,84 +111,95 @@
 }
 
 /* word_animation*/
-  .word_animation {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    color: white;
-    transform: translateX(-100px);
+.word_animation {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  transform: translateX(-100px);
+  text-align: center;
+}
+
+.word_animation p {
+  display: inline-flex;
+  text-align: center;
+  vertical-align: top;
+  color: #333333;
+  letter-spacing: 2px;
+  ;
+}
+
+.word_animation p .word {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+}
+
+.word_animation p .word .letter {
+  transform-origin: center center 25px;
+}
+
+.word_animation p .word .letter.out {
+  transform: rotateX(90deg);
+  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+}
+
+.word_animation p .word .letter.in {
+  transition: 0.38s ease;
+}
+
+.word_animation p .word .letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.salmon {
+  color: #E7968b;
+}
+
+.purple {
+  color: #ba8cd7;
+}
+
+.blue {
+  color: #73a9c2;
+}
+
+.green {
+  color: #9eba83;
+}
+
+.yellow {
+  color: #f8d568;
+}
+
+.emoji {
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+
+  .intro p {
+    margin-right: 0px;
+  }
+
+  .pic img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .intro {
+    padding-top: 20px;
+  }
+
+  #yuxuanchen {
     text-align: center;
   }
-
-  .word_animation p {
-    display: inline-flex;
-    text-align: center;
-    vertical-align: top;
-    color:#333333;
-    letter-spacing: 2px;;
-  }
-  .word_animation p .word {
-    position: absolute;
-    display: flex;
-    opacity: 0;
-  }
-  .word_animation p .word .letter {
-    transform-origin: center center 25px;
-  }
-  .word_animation p .word .letter.out {
-    transform: rotateX(90deg);
-    transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
-  }
-  .word_animation p .word .letter.in {
-    transition: 0.38s ease;
-  }
-  .word_animation p .word .letter.behind {
-    transform: rotateX(-90deg);
-  }
-
-  .salmon {
-    color: #E7968b;
-  }
-
-  .purple {
-    color: #ba8cd7;
-  }
-
-  .blue {
-    color: #73a9c2;
-  }
-
-  .green {
-    color: #9eba83;
-  }
-
-  .yellow {
-    color: #f8d568;
-  }
-  .emoji{
-    font-size: 20px;
-  }
-
-  @media (max-width: 900px) {
-    .intro{
-      flex-direction: column-reverse;
-    }
-    .intro p{
-      margin-right: 0px;
-    }
-    .pic img{
-      float: none;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0px;
-      width: 50%;
-      margin-bottom: 20px;
-    }
-    .intro{
-      padding-top: 20px;
-    }
-    #yuxuanchen{
-      text-align: center;
-    }
-  }
+}

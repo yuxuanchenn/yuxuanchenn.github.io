@@ -1,22 +1,23 @@
-body{
+body {
   padding-left: 250px;
   padding-right: 250px;
   padding-top: 25px;
 }
-.header{
+
+.header {
   align-items: center;
   position: relative;
-
 }
-.header img{
-  display:inline-block;
-  float:left;
-  width:30px;
+
+.header img {
+  display: inline-block;
+  float: left;
+  width: 30px;
   margin-top: 25px;
 }
 
 /*Navigation*/
-nav{
+nav {
   display: flex;
   justify-content: flex-end;
 }
@@ -31,7 +32,7 @@ nav a {
   font-size: 15px;
   color: #8f9a9f;
   position: relative;
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   font-variant: small-caps;
 }
@@ -57,7 +58,8 @@ nav a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
-.current-page{
+
+.current-page {
   color: #333333;
   font-weight: 700;
 }
@@ -77,6 +79,7 @@ nav a:hover::after {
 .fa-linkedin {
   color: #333333;
 }
+
 .fa-facebook {
   color: #333333;
 }
@@ -84,19 +87,20 @@ nav a:hover::after {
 .fa-instagram {
   color: #333333;
 }
+
 .fa-medium {
   color: #333333;
 }
 
-.footer{
+.footer {
   padding-top: 50px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-#name{
+#name {
   display: inline;
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 12.5px;
   color: #333333;
@@ -104,12 +108,12 @@ nav a:hover::after {
   margin-bottom: 0px;
   letter-spacing: 3.5px;
   /* margin-left: 20px; */
-  top:-10px;
+  top: -10px;
 }
 
-#chinese{
+#chinese {
   display: inline;
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 11.5px;
   color: #6F6F6F;
@@ -117,8 +121,7 @@ nav a:hover::after {
   margin-bottom: 0px;
   letter-spacing: 3.5px;
   margin-left: 0px;
-  top:-10px;
-
+  top: -10px;
 }
 
 /* h2:after{
@@ -132,10 +135,9 @@ nav a:hover::after {
   margin-right: 20%;
   background:lightgray;
 } */
-
-.heading h2{
+.heading h2 {
   display: inline;
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 13px;
   color: #333333;
@@ -143,7 +145,6 @@ nav a:hover::after {
   margin-top: 0px;
   margin-bottom: 0px;
   letter-spacing: 4px;
-
 }
 
 /* button,
@@ -153,11 +154,10 @@ button::after {
   -o-transition: all 0.3s;
 	transition: all 0.3s;
 } */
-
 button {
   font-size: 11px;
   letter-spacing: 1.3px;
-  font-family: 'Raleway',sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: none;
   border: 1.2px solid #333333;
   color: #333333;
@@ -178,32 +178,37 @@ button:hover {
   border: 1px solid #808080;
   color: white;
   background: #808080;
-  font-weight:bold;
+  font-weight: bold;
 }
 
-.btn{
+.btn {
   overflow: hidden;
 }
 
 @media (max-width: 900px) {
-  body{
+  body {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .header{
+
+  .header {
     display: flex;
     flex-direction: column;
   }
-  #name{
+
+  #name {
     display: none;
   }
-  #chinese{
+
+  #chinese {
     display: none;
   }
-  nav ul{
+
+  nav ul {
     padding-left: 0px;
   }
-  button{
+
+  button {
     text-align: center;
   }
 }
