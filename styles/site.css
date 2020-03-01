@@ -12,8 +12,7 @@ body {
 .header img {
   display: inline-block;
   float: left;
-  width: 30px;
-  margin-top: 25px;
+  width: 60px;
 }
 
 /*Navigation*/
@@ -106,9 +105,8 @@ nav a:hover::after {
   color: #333333;
   position: relative;
   margin-bottom: 0px;
-  letter-spacing: 3.5px;
-  /* margin-left: 20px; */
-  top: -10px;
+  letter-spacing: 3px;
+  left: -8px;
 }
 
 #chinese {
@@ -119,9 +117,8 @@ nav a:hover::after {
   color: #272727;
   position: relative;
   margin-bottom: 0px;
-  letter-spacing: 3.5px;
-  margin-left: 0px;
-  top: -10px;
+  letter-spacing: 3px;
+  left: -8px;
 }
 
 /* h2:after{
@@ -185,6 +182,8 @@ button:hover {
   overflow: hidden;
 }
 
+
+
 @media (max-width: 900px) {
   body {
     padding-left: 25px;
@@ -195,6 +194,7 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
+
 
   #name {
     display: none;
