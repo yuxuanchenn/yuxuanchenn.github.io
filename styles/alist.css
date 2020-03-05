@@ -158,6 +158,11 @@ iframe {
   color: gray;
 }
 
+video {
+  width: 100%;
+  height: auto;
+  outline: none;
+}
 @media (max-width: 900px) {
   .team p {
     margin-left: 0px;
