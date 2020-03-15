@@ -12,7 +12,7 @@ body {
 .header img {
   display: inline-block;
   float: left;
-  width: 55px;
+  width: 30px;
 }
 
 /*Navigation*/
@@ -107,6 +107,7 @@ nav a:hover::after {
   margin-bottom: 0px;
   letter-spacing: 3px;
   left: -8px;
+  top:-40px;
 }
 
 #chinese {
@@ -119,6 +120,7 @@ nav a:hover::after {
   margin-bottom: 0px;
   letter-spacing: 3px;
   left: -8px;
+  top:-40px;
 }
 
 /* h2:after{
