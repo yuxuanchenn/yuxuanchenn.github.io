@@ -110,68 +110,6 @@
   font-weight: 700;
 }
 
-/* word_animation*/
-.word_animation {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-  color: white;
-  transform: translateX(-100px);
-  text-align: center;
-}
-
-.word_animation p {
-  display: inline-flex;
-  text-align: center;
-  vertical-align: top;
-  color: #333333;
-  letter-spacing: 2px;
-  ;
-}
-
-.word_animation p .word {
-  position: absolute;
-  display: flex;
-  opacity: 0;
-}
-
-.word_animation p .word .letter {
-  transform-origin: center center 25px;
-}
-
-.word_animation p .word .letter.out {
-  transform: rotateX(90deg);
-  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
-}
-
-.word_animation p .word .letter.in {
-  transition: 0.38s ease;
-}
-
-.word_animation p .word .letter.behind {
-  transform: rotateX(-90deg);
-}
-
-.salmon {
-  color: #E7968b;
-}
-
-.purple {
-  color: #ba8cd7;
-}
-
-.blue {
-  color: #73a9c2;
-}
-
-.green {
-  color: #9eba83;
-}
-
-.yellow {
-  color: #f8d568;
-}
-
 .emoji {
   font-size: 20px;
 }
