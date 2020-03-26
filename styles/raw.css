@@ -10,6 +10,12 @@
 #mockup{
   width: 100%;
 }
+
+#mobile_pin{
+  display: none;
+  width: 100%;
+  margin-bottom: 30px;
+}
 .content_intro{
   text-align: center;
 }
@@ -73,6 +79,9 @@ p {
 }
 
 @media (max-width: 900px) {
+  #mobile_pin{
+    display: block;
+  }
   #side_img{
     display: none;
   }
