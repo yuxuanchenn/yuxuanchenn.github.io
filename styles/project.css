@@ -74,12 +74,6 @@ span.wave {
   100% { transform: rotate(  0.0deg) }
 }
 
-.project{
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 60px;
-}
-
 .container:hover .image {
   opacity: 0.5;
 }
@@ -101,6 +95,12 @@ span.wave {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
 }
 
 
