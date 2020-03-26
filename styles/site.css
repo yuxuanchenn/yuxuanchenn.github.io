@@ -97,6 +97,17 @@ nav a:hover::after {
   text-align: center;
 }
 
+.top {
+  text-align: center;
+}
+
+.top a {
+  font-size: 15px;
+  text-decoration: none;
+  color: gray;
+}
+
+
 #name {
   display: inline;
   font-family: 'Raleway', sans-serif;

@@ -40,9 +40,20 @@
 }
 
 .hello {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
+.title{
+
+  margin-bottom: 20px;
+
+}
+
+.title p{
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
 span.wave {
   margin-left: 5px;
   font-size: 22px;
@@ -62,34 +73,11 @@ span.wave {
    50% { transform: rotate(  0.0deg) }
   100% { transform: rotate(  0.0deg) }
 }
-.discussion {
+
+.project{
   display: flex;
   flex-direction: row;
   padding-bottom: 60px;
-}
-
-.spotify {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 50px;
-}
-
-.venmo {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 50px;
-}
-
-.a-list {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 50px;
-}
-
-.foodie {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 50px;
 }
 
 .container:hover .image {
@@ -115,144 +103,17 @@ span.wave {
   text-align: center;
 }
 
-.photography {
-  position: relative;
-  top: 80px;
-}
 
-.playground {
-  display: flex;
-  flex-direction: column;
-}
-
-.end {
-  display: flex;
-  flex-direction: column;
-}
-
-.city {
-  display: flex;
-  flex-direction: column;
-}
-
-.location_unknown {
-  display: flex;
-  flex-direction: column;
-}
-
-.waves {
-  display: flex;
-  flex-direction: column;
-}
-
-.photography img {
-  width: 600px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  /* padding-bottom: 30px; */
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .1s ease-in-out;
-  transition: .1s ease-in-out;
-}
-
-.photography img:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
-}
-
-.photography h3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Raleway', sans-serif;
-  color: #333333;
-  letter-spacing: 0.5px;
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 80px;
-  margin-top: 10px;
-}
-
-.photo {
-  opacity: 0.7;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.photography .center {
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.drawing {
-  margin-top: 150px;
-}
-
-.drawing .center {
-  opacity: 1;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.drawing img {
-  width: 600px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  /* padding-bottom: 30px; */
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
-}
-
-.otherwork .text {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-size: 25px;
-  font-weight: normal;
-  letter-spacing: 4px;
-  padding: 16px 32px;
-}
 
 @media (max-width: 900px) {
   .projects h3 {
     margin-top: 18px;
   }
 
-  .discussion {
+  .project {
     flex-direction: column;
   }
 
-  .spotify {
-    flex-direction: column;
-  }
-
-  .a-list {
-    flex-direction: column;
-  }
-
-  .venmo {
-    flex-direction: column;
-  }
-
-  .foodie {
-    flex-direction: column;
-  }
 
   .image {
     width: 100%;

@@ -1,0 +1,89 @@
+.contents {
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+  letter-spacing: 0.8px;
+  font-size: 15px;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-top: 30px;
+}
+#mockup{
+  width: 100%;
+}
+.content_intro{
+  text-align: center;
+}
+.content_intro h4{
+  margin-bottom: 5px;
+}
+.content_intro p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+}
+.contents strong{
+    font-style: normal;
+    font-weight: 700;
+}
+.contents li{
+  list-style-type: lower-alpha;
+  margin-bottom: 10px;
+}
+.contents ul{
+  margin-top: 5px;
+}
+.design{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+#side_img{
+  width: 100%;
+
+}
+.questions{
+  margin-right: 10%;
+}
+.questions p{
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.question{
+  margin-bottom: 20px;
+}
+
+#final_design{
+  width: 100%;
+  margin-bottom: 30px;
+
+}
+
+
+.design{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+@media (max-width: 900px) {
+  #side_img{
+    display: none;
+  }
+  .design{
+    margin-left: 0px;
+  }
+  .questions{
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  #final_design{
+    width:100%;
+  }
+}

@@ -1,5 +1,5 @@
 .case_study {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: 'Raleway', sans-serif;
   color: #333333;
   letter-spacing: 0.8px;
@@ -148,15 +148,6 @@ iframe {
   width: 100%;
 }
 
-.top {
-  text-align: center;
-}
-
-.top a {
-  font-size: 15px;
-  text-decoration: none;
-  color: gray;
-}
 
 video {
   width: 100%;
