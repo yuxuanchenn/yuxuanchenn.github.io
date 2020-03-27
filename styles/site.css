@@ -165,17 +165,7 @@ a:hover{
   top:-40px;
 }
 
-/* h2:after{
-  content:"";
-  position:absolute;
-  top:50%;
-  left:100%;
-  width:700%;
-  height:1px;
-  margin-top:-1px;
-  margin-right: 20%;
-  background:lightgray;
-} */
+
 .heading h2 {
   display: inline;
   font-family: 'Raleway', sans-serif;
