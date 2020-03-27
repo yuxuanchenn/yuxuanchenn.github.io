@@ -215,6 +215,10 @@ button:hover {
   overflow: hidden;
 }
 
+.link{
+  display: inline-block;
+}
+
 
 
 @media (max-width: 900px) {
