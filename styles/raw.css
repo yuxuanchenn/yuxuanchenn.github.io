@@ -79,6 +79,10 @@ p {
 }
 
 @media (max-width: 900px) {
+  .contents{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   #mobile_pin{
     display: block;
   }

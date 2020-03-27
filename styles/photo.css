@@ -27,3 +27,10 @@
   font-size: 14px;
   font-style: italic;
 }
+
+@media (max-width: 900px) {
+  .contents{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

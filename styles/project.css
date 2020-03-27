@@ -106,6 +106,10 @@ span.wave {
 
 
 @media (max-width: 900px) {
+  .projects{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .projects h3 {
     margin-top: 18px;
   }

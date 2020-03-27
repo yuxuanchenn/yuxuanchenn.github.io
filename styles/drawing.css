@@ -12,3 +12,9 @@
   display: flex;
   flex-direction: row;
 } */
+@media (max-width: 900px) {
+  .contents{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
