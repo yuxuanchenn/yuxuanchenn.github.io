@@ -1,13 +1,14 @@
 .contents{
   margin-top: 30px;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 8%;
+  padding-left: 8%;
 
 }
 .contents img{
   width: 100%;
   margin-bottom: 30px;
 }
+
 /* .pictures{
   display: flex;
   flex-direction: row;
