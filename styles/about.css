@@ -2,7 +2,6 @@
 .intro {
   display: flex;
   flex-direction: row;
-  padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }

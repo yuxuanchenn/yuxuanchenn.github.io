@@ -1,7 +1,7 @@
 body {
   padding-left: 200px;
   padding-right: 200px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .header {
@@ -220,6 +220,14 @@ button:hover {
   display: inline-block;
 }
 
+#mb{
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  color: #808080;
+  margin-top: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
 
 
 @media (max-width: 900px) {
