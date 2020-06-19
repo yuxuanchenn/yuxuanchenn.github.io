@@ -1,6 +1,6 @@
 .preview{
-  padding-right: 120px;
-  padding-left: 120px;
+  padding-right: 100px;
+  padding-left: 100px;
   margin-top: 20px;
 }
 .preview .case_study_img{
@@ -15,4 +15,11 @@
 #stay_tune{
   text-align: center;
    margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .preview{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

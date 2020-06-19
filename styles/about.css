@@ -116,6 +116,7 @@
 @media (max-width: 900px) {
   .intro {
     flex-direction: column-reverse;
+    padding-top: 0px;
   }
 
   .intro p {
@@ -130,10 +131,6 @@
     margin-top: 0px;
     width: 50%;
     margin-bottom: 20px;
-  }
-
-  .intro {
-    padding-top: 20px;
   }
 
   #yuxuanchen {
