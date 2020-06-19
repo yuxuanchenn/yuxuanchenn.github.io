@@ -15,6 +15,12 @@
   line-height: 30px;
 }
 
+h3{
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
 h4 {
   margin-bottom: 8px;
   color: black;
@@ -30,28 +36,11 @@ h5 {
 .contents p {
   margin-bottom: 30px;
 }
+.case_study_img{
+  width:100%;
+}
 
 #banner {
-  width: 100%;
-}
-
-#uikit {
-  width: 100%;
-}
-
-#sketch {
-  width: 100%;
-}
-
-#content_requirements {
-  width: 100%;
-}
-
-#main_feed {
-  width: 100%;
-}
-
-#detail {
   width: 100%;
 }
 
