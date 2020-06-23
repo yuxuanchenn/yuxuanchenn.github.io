@@ -9,10 +9,6 @@
   margin-bottom: 30px;
 }
 
-/* .pictures{
-  display: flex;
-  flex-direction: row;
-} */
 @media (max-width: 900px) {
   .contents{
     padding-left: 0px;
