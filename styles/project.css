@@ -59,7 +59,7 @@
   width: 100%;
   height: auto;
   float: left;
-  transition: .3s ease;
+  transition: .3s ease-in-out;
   backface-visibility: hidden;
   margin-bottom: 20px;
 }
