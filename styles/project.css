@@ -77,8 +77,8 @@
 
 .row-container{
   display: grid;
-  grid-template-columns: 45% 45%;
-  grid-column-gap: 10%;
+  grid-template-columns: 47.5% 47.5%;
+  grid-column-gap: 5%;
 }
 
 
