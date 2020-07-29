@@ -106,7 +106,6 @@
     margin-right: auto;
   }
   .container:hover .image {
-    opacity: 0.5;
     -webkit-transform: scale(1);
     transform: scale(1);
   }
