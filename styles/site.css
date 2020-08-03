@@ -1,6 +1,6 @@
 body {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 30px;
 }
 
@@ -72,7 +72,7 @@ nav a:hover::after {
 }
 
 .projects_nav a{
-  font-size: 14px;
+  font-size: 15px;
   color: #CCCCCC;
   position: relative;
   font-family: 'Raleway', sans-serif;

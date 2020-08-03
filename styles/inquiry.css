@@ -12,10 +12,7 @@
   line-height: 30px;
   margin-bottom: 30px;
 }
-#stay_tune{
-  text-align: center;
-   margin-bottom: 30px;
-}
+
 
 @media (max-width: 900px) {
   .preview{
