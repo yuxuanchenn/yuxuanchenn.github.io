@@ -144,12 +144,6 @@ video {
   outline: none;
 }
 @media (max-width: 900px) {
-  .tools{
-    margin-right: 0px;
-  }
-  .team p{
-    margin-left: 18px;
-  }
   .horizontal_about p{
     font-size: 12px;
   }
