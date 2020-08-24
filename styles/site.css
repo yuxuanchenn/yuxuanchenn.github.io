@@ -12,7 +12,7 @@ body {
 .header img {
   display: inline-block;
   float: left;
-  width: 45px;
+  width: 50px;
   left:-2px;
 }
 
@@ -144,16 +144,17 @@ a:hover{
   display: inline;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 11px;
-  color: #333333;
+  font-size: 12px;
+  color: #363636;
   position: relative;
   margin-bottom: 0px;
-  letter-spacing: 2px;
-  left: 5px;
-  top:-40px;
+  /* letter-spacing: 2px; */
+  letter-spacing: 1.5px;
+  left: 1px;
+  top:-45px;
 }
 
-#chinese {
+/* #chinese {
   display: inline;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
@@ -164,7 +165,7 @@ a:hover{
   letter-spacing: 2px;
   left: 5px;
   top:-40px;
-}
+} */
 
 
 .heading h2 {
