@@ -4,9 +4,10 @@
   letter-spacing: 0.8px;
   font-size: 16px;
 }
-#stay_tune{
+
+.stay_tune{
   text-align: center;
-   margin-bottom: 30px;
+   /* margin-bottom: 30px; */
 }
 
 .goals ul {
