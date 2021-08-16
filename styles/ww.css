@@ -1,0 +1,27 @@
+#banner{
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.link{
+  color: #333333;
+}
+
+h5{
+  text-align: center;
+  margin-top: 40px;
+}
+
+h4{
+  margin-bottom: 15px
+}
+
+strong{
+  font-weight: 500;
+
+}
+
+.contents p{
+  margin-bottom: 10px;
+}
