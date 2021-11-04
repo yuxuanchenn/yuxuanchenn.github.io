@@ -1,12 +1,16 @@
 body {
-  padding-left: 240px;
+  /* padding-left: 240px;
   padding-right: 240px;
-  padding-top: 30px;
+  padding-top: 30px; */
+  margin-top: 0px;
 }
 
 .header {
   align-items: center;
   position: relative;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
 }
 
 .header img {
@@ -29,10 +33,10 @@ nav li {
 }
 
 nav a {
-  font-size: 18px;
+  font-size: 16px;
   color: #8f9a9f;
   position: relative;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
   font-variant: small-caps;
 }
@@ -44,7 +48,7 @@ nav a::after {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #769CAE;
+  background: #E3AB92;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.5s;
@@ -60,8 +64,15 @@ nav a:hover::after {
 }
 
 .current-page {
-  color: #333333;
+  color: #5F5F5F;
   font-weight: 700;
+}
+
+hr {
+    width:10%;
+    margin:0 auto;
+    margin-bottom: 50px;
+    background:#5F5F5F;
 }
 
 /* Project Nav */
@@ -76,7 +87,7 @@ nav a:hover::after {
   font-size: 15px;
   color: #CCCCCC;
   position: relative;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
   letter-spacing:1.5px;
   font-weight: 400;
@@ -135,7 +146,7 @@ a:hover{
 
 .top a {
   font-size: 15px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
   letter-spacing: 0.8px;
   color: gray;
@@ -144,7 +155,7 @@ a:hover{
 
 #name {
   display: inline;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 12px;
   color: #363636;
@@ -158,7 +169,7 @@ a:hover{
 
 .heading h2 {
   display: inline;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 13px;
   color: #333333;
@@ -171,7 +182,7 @@ a:hover{
 button {
   font-size: 11px;
   letter-spacing: 1.3px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: none;
   border: 1.2px solid #333333;
   color: #333333;
@@ -203,7 +214,7 @@ button:hover {
 }
 
 #mb{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 10px;
   color: #808080;
   margin-top: 12px;
@@ -211,16 +222,28 @@ button:hover {
   letter-spacing: 0.5px;
 }
 
+.background{
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+  margin-bottom: 50px;
+}
 
 @media (max-width: 900px) {
   body {
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    margin:0px;
   }
 
   .header {
     display: flex;
     flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 
